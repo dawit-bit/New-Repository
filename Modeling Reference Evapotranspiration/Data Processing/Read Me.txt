@@ -1,0 +1,14 @@
+This folder contains 2 files
+
+1. 2009_2014_Hourly_Weather_Evapotranspiration_Data.csv
+              
+   File:                                      Input data file in csv format 
+   Content:                                   Weather and reference evapotranspiration data, spanning 6 years (2009-2014), used for model training.   
+                                              The data types and units are described in the file: DataAcquisitionProcesssing.ipynb    
+
+2. DataAcquisitionProcesssing.ipynb 
+
+   File type:                                 Jupiter Notebook  
+   Content:                                   Python code used for loading the input data, data preprocessing, and preparation for predictive analysis  
+ 
+ 
