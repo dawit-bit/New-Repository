@@ -1,0 +1,27 @@
+This folder contains 2 files
+
+1. 2009_2014_Hourly_Training_Data.csv
+              
+   File:                                            Input data file in csv format 
+   Content:                                         Weather and reference evapotranspiration data, eto, spanning 6 years (2009-2014), used for model training   
+                                                    The data types and units are described in the file: DataAcquisitionProcesssing.ipynb    
+
+2. EvapoTranspiration_Dt_Rf_Xgb_Training.ipynb 
+
+   File type:                                       Jupiter Notebook  
+   Content:                                         Python code for importing input data and loading it into pandas data frame, preprocessing, and model development 
+   Description:                                     Three alternative models, consisting of decision tree regressor, random forest, and xgboost models were trained 
+                                                    on the input data. The xgboost model was selected as the best model among alternatives for predicting reference 
+                                                    evapotranspiration, eto, among alternatives
+
+3. eto_actual_vs_predicted_dt.png 
+   File type:                                       image                    
+   Content:                                         Comparison of referenced evapotranspiration predicted by the decision tree regressor model and observed 
+ 
+4. eto_actual_vs_predicted_rf.png 
+   File type:                                       image                    
+   Content:                                         Comparison of referenced evapotranspiration predicted by the random forest model and observed 
+
+5. eto_actual_vs_predicted_rf.png 
+   File type:                                       image                    
+   Content:                                         Comparison of referenced evapotranspiration predicted by the xgboost model and observed 
