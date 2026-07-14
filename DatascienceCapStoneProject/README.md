@@ -117,5 +117,6 @@ d) Files in Subfolder "Predictive Analytics and Project Report":              A 
 
 _________________
 
-Note: Some project files were uploaded as zipped folders containing *.png files, because the author was unable to extract the corresponding *.ipynb files from the Jupyter notebooks
+Note: Some project files were uploaded as zipped folders containing *.png files, because the author was unable to extract the corresponding *.ipynb files from the Jupyter notebooks.
+      TO VIEW THESE FILES YOU MAY NEED TO DOWNLOAD THE ZIPPED FOLDER TO YOUR LOCAL DRIVE, BY CLICKING ON VIEW RAW   
  
