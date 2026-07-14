@@ -1,8 +1,10 @@
 This folder contains data and a machine learning model developed in Jupiter notebook to predict reference evapotranspiration from weather data.
 The folder contains the following subfolders, each with several files 
 
-Data Processing:    Contains input data and Jupiter notebook with Python code. The code is used to import input data and process the data for use
-                    in predictive analysis of evapotranspiration
+Subfolders:
+
+Data Processing:    Contains the input data file and a Jupiter notebook with Python code, comments/discussion, and charts. The Python code is used to
+                    import input data and process the data for use in predictive analysis of evapotranspiration
  
 Model Development:  Contains input data, Jupiter notebook with Python code, and output data. The code is used to import input data, preprocess the data,
                     train and test alternative models, and select the model with the best performance  
