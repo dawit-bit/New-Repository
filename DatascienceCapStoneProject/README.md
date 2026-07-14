@@ -12,15 +12,18 @@ Project Description, background, objectives, and Project Type
    Project Background and Context:
 
    • Commercial space exploration
+   
      - The commercial space age has arrived
      - Companies are competing to make space exploration, travel, and delivery of payloads to space accessible and affordable
 
    • SpaceX stands out for its achievements among private space companies
+   
      - Sending and returning space craft to the international space station
      - Launching Starlink satellite constellations
      - Conducting manned space missions
 
    • SpaceX innovation and efficiency
+   
      - SpaceX pioneered a technology that enables it to reuse the first stage of its rockets
      - Resultant cost saving allowed SpaceX to advertise its service price on its Falcon 9 rocket launches for $62 million
      - Competitors’ price exceed $165 million
@@ -28,6 +31,7 @@ Project Description, background, objectives, and Project Type
    Problem Description and Objectives:
 
    • Problem description
+   
      - A new space exploration company plans to develop a major program that competes with SpaceX
      - As part of its efficiency drive the new company seeks to build a machine Learning (ML) model with the specifications:
         Capable of accurately predicting landing outcomes (success or failure) for the first stage of SpaceX’s Falcon 9 rocket
@@ -35,6 +39,7 @@ Project Description, background, objectives, and Project Type
         Public domain data on SpaceX's Falcon 9 rocket will be used for model development
  
    • Objectives
+   
      - Develop a machine learning model for the new company
      - Advise the new company on landing success rates of its rocket launches and implications on pricing strategy
 
@@ -45,18 +50,20 @@ Project Description, background, objectives, and Project Type
 Files and Folders
 
 Subfolder and files:
+
 • The data science capstone project folder contains 4 subfolders and 10 files
 
 Types of files:
-• Interactive Python Notebooks (*.ipynb) created with Jupyter notebook:  Contain Python Code, pandas dataframes, charts, comments/discussions, SQL code
-• Web-based interactive dashboards with Plotly-Dash:                     Contains a zipped folder with *.png files. Each png file displays images of a dashboard setting and comments   
-• Portable Document Format (PDF) files:                                  Contains a Plotly-Dash code for dashboarding
-• Web-based interactive Folium maps:                                     Contains zipped folder with *.png files. Each png file displays image of georeferenced SpaceX landing data and discussion
-• PDF file:                                                              Contains project report
+
+• Interactive Python Notebooks (*.ipynb) created with Jupyter notebook:    Contain Python Code, pandas dataframes, charts, comments/discussions, SQL code
+• Web-based interactive dashboards with Plotly-Dash:                       Contains a zipped folder with *.png files. Each png file displays images of a dashboard setting and comments   
+• Portable Document Format (PDF) files:                                    Contains a Plotly-Dash code for dashboarding
+• Web-based interactive Folium maps:                                       Contains zipped folder with *.png files. Each png file displays image of georeferenced SpaceX landing data and discussion
+• PDF file:                                                                Contains project report
 
 Subfolders, files, and description:
 
-a) Files in Subfolder "Data collection and Preprocessing" :                   A subfolder with 3 files. The files in this subfolder retrieve SpaceX data from source websites, import data into
+a) Files in Subfolder "Data collection and Preprocessing":                    A subfolder with 3 files. The files in this subfolder retrieve SpaceX data from source websites, import data into
                                                                               pandas dataframe, perform data processing, and upload data to a repository - perform ELT operation
 
      - Data Collection SpaceX API Falcon 9 Landing Prediction.ipynb:          An Interactive Python Notebook (ipynb) used to retrieve historical SpaceX data from the SpaceX REST API website using
@@ -69,7 +76,7 @@ a) Files in Subfolder "Data collection and Preprocessing" :                   A 
 
       - Data Wrangling SpaceX Falcon 9 Landing Prediction.ipynb:              An Interactive Python Notebook (ipynb) used Python code to import input data (specifically, data collected from SpaceX API)
                                                                               from the repository. The imported data (which is in *.csv format) was loaded into a dataframe for further processing, which
-                                                                              include: 
+                                                                              include:                                                                               
                                                                                       Data cleaning, detection and handling null values and outliers 
                                                                                       Checking data types for possible type casting 
                                                                                       Data understanding - explore potential features and significance in terms of their effect on rocket landing outcomes, and 
@@ -118,5 +125,5 @@ d) Files in Subfolder "Predictive Analytics and Project Report":              A 
 _________________
 
 Note: Some project files were uploaded as zipped folders containing *.png files, because the author was unable to extract the corresponding *.ipynb files from the Jupyter notebooks.
-      TO VIEW THESE FILES YOU MAY NEED TO DOWNLOAD THE ZIPPED FOLDER TO YOUR LOCAL DRIVE, BY CLICKING ON VIEW RAW   
+      TO VIEW THESE FILES, PLEASE DOWNLOAD THE ZIPPED FOLDER TO YOUR LOCAL DRIVE
  
